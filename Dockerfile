@@ -1,6 +1,8 @@
 
-FROM python:latest
-ENV VIRTUAL_ENV "/venv"
+FROM python:latest
+
+ENV VIRTUAL_ENV "/venv"
+
 RUN python -m venv $VIRTUAL_ENV
 # —••÷[🕊𝗡𝗢𝗥𝗗Σ𝗗🕊]÷••—  
 ENV PATH "$VIRTUAL_ENV/bin:$PATH"
@@ -18,5 +20,6 @@ RUN cd Norded
 WORKDIR /Norded
 # —••÷[🕊𝗡𝗢𝗥𝗗Σ𝗗🕊]÷••—  
 RUN pip install -r requirements.txt
-# —••÷[🕊𝗡𝗢𝗥𝗗Σ𝗗🕊]÷••—  
+# —••÷[🕊𝗡𝗢𝗥𝗗Σ𝗗🕊]÷••— 
+RUN pip install --upgrade pip 
 CMD python3 main.py
