@@ -35,7 +35,8 @@
 "value":"@krakinzkon"},    
 "ALIVE_CHECK_CHAT":{
 "description":"Put the GROUP CHAT ID where after bot is deployed a confirmation message will be sent.",
-"required":true}, 
+"required":true,
+"value":"-1001653042726"}, 
 "HEROKU":{
 "description":"KEEP IT HEROKU!!!!!!!",
 "required":true,
@@ -67,9 +68,9 @@
 "CHAT_ID":{
 "description": "Group chat IDs where your —••÷[🕊𝗡𝗢𝗥𝗗Σ𝗗🕊]÷••— player can play music",
 "required":true,
-"value":"Put like this > -1001526909798 -1001472203238 -1001509210199 [with a space between]"},
+"value":"Put like this > -1001594426226 -1001653042726"},
 "NORD_ADMINS":{
 "description": "User IDs of the Admins you want can use 𝗔𝗱𝗺𝗶𝗻 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 of Xeronoid",
 "required":true,
-"value":"Put like this > 1868088205 1941593018 [with a space between]"}},
+"value":"Put like this > 1398443962 5278784798"}},
 "buildpacks": [{"url": "heroku/python"}]}
