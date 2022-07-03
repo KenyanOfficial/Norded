@@ -5,6 +5,23 @@
 "description": "—••÷[🕊NORDED🕊]÷••—",
 "website": "https://t.me/Krakns",
 "keywords": ["telegram","voice","pyrogram","musicbot","userbot"],
+ "buildpacks": [{
+    "url": "heroku/python"
+  }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
 "env": {
 "API_ID":{
 "description":"api_id part of your Telegram API Key From @HVApiBot Only",
