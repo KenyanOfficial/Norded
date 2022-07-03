@@ -1,0 +1,15 @@
+pytgcalls==3.0.0.dev21
+requests
+youtube_search
+youtube_dl
+wheel
+TgCrypto
+pyrogram==1.4.16
+heroku3
+ffmpeg-python
+urllib3
+termcolor
+loguru
+python-dotenv
+pyromod
+pyAesCrypt
